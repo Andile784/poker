@@ -19,7 +19,7 @@ def main():
             return
         card = Card(card_pair[0], card_pair[1])
         cards.append(card)
-
+        
     # Create a Hand object from the list of cards
     hand = Hand(cards)
 
